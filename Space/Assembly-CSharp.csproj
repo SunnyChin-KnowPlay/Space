@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{C1BF62FA-C5C9-41A2-2CDF-B0DCBC002D60}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -57,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Tests\TestBehaviour.cs" />
-    <Compile Include="Assets\Scripts\Tests\Test2Behaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
